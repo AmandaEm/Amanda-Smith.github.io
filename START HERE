@@ -1,0 +1,12 @@
+/* When you open gitpod
+first type in terminal, code ~/.bashrc
+then type in bash file, export CHE_PROJECTS_ROOT=/workspace 
+close file and terminal
+open new terminal and type sudo apt-get install subversion
+Press enter
+npm install -g opspark
+
+
+remember:
+personal access token - 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
+*/
