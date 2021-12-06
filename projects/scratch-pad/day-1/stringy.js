@@ -19,7 +19,7 @@ function length(string) {
   //   Constraints: none
   //   Edge cases: none
   // use string.length property to return lenght of string
-  return string.length
+  return string.length;
 
 
     // YOUR CODE ABOVE HERE //
@@ -35,8 +35,8 @@ function toLowerCase(string) {
 // constraints : none
 // edge case: none
 // use lower case property to turn the string to lower case
-
-
+var newString = string.toLowerCase()
+return newString;
     // YOUR CODE ABOVE HERE //
 }
 
@@ -45,8 +45,12 @@ function toLowerCase(string) {
  */
 function toUpperCase(string) {
     // YOUR CODE BELOW HERE //
-
-
+// Input: string
+// Output: String in uppercase
+// Constraints: none
+// Edge Case: none
+var upperString = string.toUpperCase();
+return upperString;
 
     // YOUR CODE ABOVE HERE //
 }
@@ -66,7 +70,10 @@ function toUpperCase(string) {
  */
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
-
+// Input: a string
+// Output: the input string where the spaces are replaced with dashes.
+// Constraint: use .replace()
+// Edge Case:
 
 
     // YOUR CODE ABOVE HERE //
