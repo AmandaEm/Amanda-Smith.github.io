@@ -21,12 +21,17 @@
 
 function reverseString(input) {
     // YOUR CODE GOES BELOW HERE //
-    
-    
-    
-    
+    //input: string
+    //output: string in reverse
+    //constraints: no                                         ne
+    //edge case: none
+    var output
+    for (i = args.length - 1; i > 0; i--) {
+    output.push
+ }   
+ return output;
     // YOUR CODE GOES ABOVE HERE //
-}
+
 
 
 
