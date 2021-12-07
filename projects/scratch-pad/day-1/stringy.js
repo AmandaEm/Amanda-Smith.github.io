@@ -74,7 +74,8 @@ function toDashCase(string) {
 // Output: the input string where the spaces are replaced with dashes.
 // Constraint: use .replace()
 // Edge Case:
-
+var newString = string.replace(" ", -);
+return newString;
 
     // YOUR CODE ABOVE HERE //
 }
@@ -93,7 +94,11 @@ function toDashCase(string) {
  */
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
-
+if (string[0] ===  char){
+    console.log(true)
+} else {
+    console.log(false);
+}
     
 
     // YOUR CODE ABOVE HERE //
@@ -113,8 +118,16 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
-
-
+// input: string and char
+// output: boolean value based on if string ends with char
+// constraints: use endsWith property
+// edge case: na
+if (string, char) {
+    console.log(true);
+    else {
+        console.log(false);
+    }
+}
 
     // YOUR CODE ABOVE HERE //
 }
@@ -126,7 +139,13 @@ function endsWith(string, char) {
  */
 function concat(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
+// input: two different strings
+// output: strings concatenated into one
+// constraints: use operator to concatenate
+// edge case: none
 
+var newString = stringOne + stringTwo;
+return newString;
 
 
     // YOUR CODE ABOVE HERE //
