@@ -25,15 +25,16 @@ function reverseString(input) {
     //output: string in reverse
     //constraints: no                                         ne
     //edge case: none
-    var output
+    var arr
     for (i = args.length - 1; i > 0; i--) {
-    output.push
+    arr.push
  }   
- return output;
+ return arr;
+}
     // YOUR CODE GOES ABOVE HERE //
 
 
-
+    
 
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////

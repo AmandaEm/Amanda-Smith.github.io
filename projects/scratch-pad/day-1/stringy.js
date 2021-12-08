@@ -74,7 +74,7 @@ function toDashCase(string) {
 // Output: the input string where the spaces are replaced with dashes.
 // Constraint: use .replace()
 // Edge Case:
-var newString = string.replace(" ", -);
+var newString = string.replace(" ","-");
 return newString;
 
     // YOUR CODE ABOVE HERE //
@@ -97,7 +97,7 @@ function beginsWith(string, char) {
 if (string[0] ===  char){
     console.log(true)
 } else {
-    console.log(false);
+    console.log(false)
 }
     
 
@@ -122,7 +122,7 @@ function endsWith(string, char) {
 // output: boolean value based on if string ends with char
 // constraints: use endsWith property
 // edge case: na
-if (string, char) {
+if (string[0] === char) {
     console.log(true);
     else {
         console.log(false);
