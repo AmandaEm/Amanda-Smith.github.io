@@ -48,7 +48,7 @@ function createLessThanFilter(base) {
 function createStartsWithFilter(startsWith) {
     // YOUR CODE BELOW HERE //
     return function(char, string) {
-        return string.startsWith(char) 
+        return string.startsWith(char);
     }
     
     
@@ -63,7 +63,9 @@ function createStartsWithFilter(startsWith) {
  */
 function createEndsWithFilter(endsWith) {
     // YOUR CODE BELOW HERE //
-    
+    return function (char, string) {
+        string.endsWith(char);
+    }
     
     
     
@@ -79,7 +81,13 @@ function createEndsWithFilter(endsWith) {
  */
 function modifyStrings(strings, modify) {
     // YOUR CODE BELOW HERE //
-    
+    var modified = [];
+// iterate over the string
+for (var i = 0; i <= string.length - 1; i++) {
+    var result = modify(strings[i]);
+    modified.push(result);
+
+}
     
     
     
