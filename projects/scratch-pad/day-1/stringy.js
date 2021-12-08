@@ -122,7 +122,7 @@ function endsWith(string, char) {
 // output: boolean value based on if string ends with char
 // constraints: use endsWith property
 // edge case: na
-if (string[0] === char) {
+if (string.length - 1 === char) {
     console.log(true);
     else {
         console.log(false);
