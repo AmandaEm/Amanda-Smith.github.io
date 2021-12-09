@@ -23,7 +23,24 @@
  */
 function range(start, end) {
     // YOUR CODE GOES BELOW HERE //
-    
+    //input - two integers
+    // output - an array containing all integers between the two parameters inclusivinly
+    //constraints - use push method and a loop method.
+    //edge cases - none known.
+    // create collection to hold array
+    var collection = []
+    // create function 
+    return function (integer1, integer2) {
+        // set up a if then dependent on which integer is bigger
+        if (integer1 <= integer2) {
+         for (var i = integer1; i <= integer2; i++);
+        } else if (integer1 >= integer2) {
+            for (var i = integer2; i >= integer1; i ++)
+        } else {
+            console.log(integer1)
+        }
+      console.log(collection.push);
+    }
     
     
     

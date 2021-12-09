@@ -9,3 +9,20 @@ npm install -g opspark
 
 remember:
 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
+
+
+other commands:
+os install
+
+add username
+
+add personal access token
+
+git add .
+git commit -m "title here"
+git push
+
+git commit -m "Description of commit"
+git push
+
+

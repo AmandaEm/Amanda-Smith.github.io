@@ -105,7 +105,10 @@ for (var i = 0; i <= string.length - 1; i++) {
  */
 function allStringsPass(strings, test) {
     // YOUR CODE BELOW HERE //
+    var array = 
     
+    for (var i = 0; i <= array.length - 1; i++) {
+        var result = modify(strings[i]);
     
     
     
