@@ -204,11 +204,11 @@ function sortAscending(stringOne, stringTwo) {
 // access the 0 index of both strings and iterate over the strings to alpabetize
 for (var i = 0; i < string.length; i++) {
 if (stringOne[i] < stringTwo[i]) {
-    return 1
+    return 1;
 } else if (stringTwo[i] < stringOne[i]) {
-    return -1
+    return -1;
 } else {
-    return 0
+    return 0;
 }
 
     // YOUR CODE ABOVE HERE //
@@ -224,7 +224,13 @@ if (stringOne[i] < stringTwo[i]) {
  */
 function sortDescending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+for (var i = string.length - 1; string >= 0; i--)
+if (stringOne[i] < stringTwo[i]) {
+    return 1;
+} else if (stringTwo[i] < stringOne[i]) {
+    return -1;
+} else {
+    return 0;
 
 
 

@@ -23,7 +23,7 @@ function reverseString(input) {
     // YOUR CODE GOES BELOW HERE //
     //input: string
     //output: string in reverse
-    //constraints: no                                         ne
+    //constraints: no                                         
     //edge case: none
     var arr
     for (i = args.length - 1; i > 0; i--) {
