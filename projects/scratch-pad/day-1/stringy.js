@@ -182,9 +182,10 @@ for (i = args.length - 1; i > 0; i--) {
  */
 function longest(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
+    // create comparison of string length and return longest
 if (stringOne.length > stringTwo.length) {
     return stringOne
-} else if stringTwo.length > stringOne.length) {
+} else if (stringTwo.length > stringOne.length) {
     return stringTwo
 }
 
@@ -200,8 +201,15 @@ if (stringOne.length > stringTwo.length) {
  */
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
-
+// access the 0 index of both strings and iterate over the strings to alpabetize
+for (var i = 0; i < string.length; i++) {
+if (stringOne < stringTwo) {
+    return 1
+} else if (stringTwo < stringOne) {
+    return -1
+} else {
+    return 0
+}
 
     // YOUR CODE ABOVE HERE //
 }
