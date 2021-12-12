@@ -182,8 +182,11 @@ for (i = args.length - 1; i > 0; i--) {
  */
 function longest(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
-
+if (stringOne.length > stringTwo.length) {
+    return stringOne
+} else if stringTwo.length > stringOne.length) {
+    return stringTwo
+}
 
     // YOUR CODE ABOVE HERE //
 }
