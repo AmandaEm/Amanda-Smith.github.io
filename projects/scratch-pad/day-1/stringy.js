@@ -203,9 +203,9 @@ function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
 // access the 0 index of both strings and iterate over the strings to alpabetize
 for (var i = 0; i < string.length; i++) {
-if (stringOne < stringTwo) {
+if (stringOne[i] < stringTwo[i]) {
     return 1
-} else if (stringTwo < stringOne) {
+} else if (stringTwo[i] < stringOne[i]) {
     return -1
 } else {
     return 0
