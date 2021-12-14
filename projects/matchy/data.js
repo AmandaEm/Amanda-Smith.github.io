@@ -26,7 +26,10 @@ var noises = [];
 noises[0] = "woof";
 noises.push(bark);
 noises.unshift(sqeal);
-noises[noises.length -1] = "meow"
+noises[noises.length -1] = "meow";
+console.log(noises.length);
+console.log(noises.length -1);
+console.log(noises);
 //////////////////////////////////////////////////////////////////////
 // Step 3 - Combining Step 1 and 2 ///////////////////////////////////
 //////////////////////////////////////////////////////////////////////
