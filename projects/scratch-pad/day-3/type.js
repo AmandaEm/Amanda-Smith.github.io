@@ -31,7 +31,7 @@ function isArray(value) {
  */
 function isObject(value) {
     // YOUR CODE BELOW HERE //
-    
+    return (typeof val === 'object');
     
     
     
@@ -46,7 +46,7 @@ function isObject(value) {
  */
 function isCollection(value) {
     // YOUR CODE BELOW HERE //
-    
+    if isArray(value) 
     
     
     
