@@ -33,16 +33,17 @@ console.log(noises);
 //////////////////////////////////////////////////////////////////////
 // Step 3 - Combining Step 1 and 2 ///////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
-
+animal[noises] = noises;
+animal.noises.push("quack");
+console.log(animal);
 
 /* *******************************************************************
  * Step 4 - Review
  *
  * 1. What are the different ways you can access properties on objects?
- *
+ *bracket notation and dot notation
  * 2. What are the different ways of accessing elements on arrays?
- *
+ * bracket notation and array methods
  * *******************************************************************
  */
 
